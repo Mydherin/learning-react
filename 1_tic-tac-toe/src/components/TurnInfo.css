@@ -1,0 +1,18 @@
+.turnInfo {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    gap: 15px;
+}
+
+.turnInfo__label {
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.turnInfo__label--active {
+    background-color: white;
+    color: black;
+
+}

@@ -1,0 +1,31 @@
+.resultPopup {
+    position: fixed; /* Fixed position to stay in place */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+    color: white; /* Light text color for dark mode */
+    padding: 20px; /* Padding inside the popup */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.resultPopup__message {
+    margin: 0 0 20px 0; /* Space below the message */
+    font-weight: bold;
+}
+
+.resultPopup__button{
+    background-color: white; /* Green background for the button */
+    color: black; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding inside the button */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Allow setting dimensions */
+    font-size: 16px; /* Text size */
+    margin: 4px 2px; /* Margins around the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+}
