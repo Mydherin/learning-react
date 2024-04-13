@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font: system-ui;
+        }
+
+        body {
+            background-color: #1b1b1f;
+            display: flex;
+            place-items: center;
+        }
+
+        .grid {
+            flex: 1;
+            margin: 15px;
+            display: grid;
+            justify-content: center;
+            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+        
+        .grid img {
+            border-radius: 8px;
+        }
+    </style>
+  </head>
+  <body>
+    <main class="grid">
+        <img src="https://picsum.photos/400/600" alt="Grid image" />
+        <img src="https://picsum.photos/400/600" alt="Grid image" />
+        <img src="https://picsum.photos/400/600" alt="Grid image" />
+        <img src="https://picsum.photos/400/600" alt="Grid image" />
+        <img src="https://picsum.photos/400/600" alt="Grid image" />
+    </main>
+  </body>
+</html>

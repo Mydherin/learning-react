@@ -1,8 +1,8 @@
 import './App.css';
-import { Board } from './components/Board';
-import { GameProvider } from './components/GameProvider';
-import { ResultPopup } from './components/ResultPopup';
-import { TurnInfo } from './components/TurnInfo';
+import { Board } from './components/game/Board';
+import { GameProvider } from './components/game/GameProvider';
+import { ResultPopup } from './components/game/ResultPopup';
+import { TurnInfo } from './components/game/TurnInfo';
 
 function App() {
 	return (
