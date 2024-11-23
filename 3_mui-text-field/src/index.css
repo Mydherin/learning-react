@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+label {
+  display: block;
+  position: relative;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 0.75rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+input:not(:placeholder-shown) + span,
+ input:focus + span {
+  top: 0px;
+  left: 5px;
+  font-size: 0.6rem;
+}
+
+span {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  transition: all 0.3s ease;
+  font-size: 0.75rem;
+}
+
