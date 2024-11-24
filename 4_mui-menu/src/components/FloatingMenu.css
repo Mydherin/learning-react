@@ -1,0 +1,14 @@
+.floating-menu {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 200px;
+    padding: 16px;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+}
+
+.floating-menu-open {
+    display: block;
+}
